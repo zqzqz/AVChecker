@@ -1,0 +1,1 @@
+apollo::planning::util::BuildStopDecision(std::string const&, double, double, apollo::planning::StopReasonCode const&, std::vector<std::string, std::allocator<std::string> > const&, std::string const&, apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)

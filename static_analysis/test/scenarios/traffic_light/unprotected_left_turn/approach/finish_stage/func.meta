@@ -1,0 +1,1 @@
+apollo::planning::scenario::traffic_light::TrafficLightUnprotectedLeftTurnStageApproach::Process(apollo::common::TrajectoryPoint const&, apollo::planning::Frame*)

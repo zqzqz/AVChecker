@@ -1,0 +1,1 @@
+apollo::planning::scenario::stop_sign::StopSignUnprotectedStageStop::RemoveWatchVehicle(apollo::planning::PathDecision const&, std::unordered_map<std::string, std::vector<std::string, std::allocator<std::string> >, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::vector<std::string, std::allocator<std::string> > > > >*)

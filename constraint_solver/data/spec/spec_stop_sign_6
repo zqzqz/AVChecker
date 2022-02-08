@@ -1,0 +1,30 @@
+and(
+    <=(
+        -(
+            vehicle.stop_line,
+            vehicle.size.s
+        ),
+        max_valid_stop_distance
+    ),
+    >=(
+        -(
+            vehicle.stop_line,
+            vehicle.size.s
+        ),
+        0
+    ),
+    is_waiting(
+        vehicle-ego,
+        intersection.start_s
+    ),
+    <(
+        vehicle-ego.arrive_time,
+        vehicle.arrive_time
+    ),
+    is_yield(
+        vehicle-ego,
+        vehicle,
+        intersection.start_s,
+        intersection.end_s
+    )
+)

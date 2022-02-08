@@ -1,0 +1,1 @@
+apollo::planning::SpeedDecider::CreateStopDecision(apollo::planning::Obstacle const&, apollo::planning::ObjectDecisionType*, double) const

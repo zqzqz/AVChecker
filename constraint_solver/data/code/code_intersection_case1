@@ -1,0 +1,13 @@
+or(
+    stop-keep_clear,
+    and(
+        scenarios-bare_intersection-unprotected-entry,
+        not(
+            scenarios-bare_intersection-unprotected-approach-finish_stage
+        ),
+        not(
+            scenarios-bare_intersection-unprotected-approach-finish_scenario
+        ),
+        scenarios-bare_intersection-unprotected-approach-stop
+    )
+)

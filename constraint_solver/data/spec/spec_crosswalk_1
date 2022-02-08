@@ -1,0 +1,33 @@
+and(
+    cross(
+        vehicle.boundary,
+        road_boundary
+    ),
+    cross(
+        vehicle-ego.boundary,
+        road_boundary
+    ),
+    <(
+        vehicle.end_s,
+        crosswalk.start_s
+    ),
+    <(
+        -(
+            crosswalk.start_s,
+            vehicle-ego.end_s
+        ),
+        3
+    ),
+    ==(
+        vehicle.velocity,
+        0
+    ),
+    <(
+        vehicle-ego.end_s,
+        crosswalk.start_s
+    ),
+    <(
+        vehicle-ego.end_s,
+        vehicle.end_s
+    )
+)

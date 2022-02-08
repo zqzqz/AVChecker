@@ -1,0 +1,1 @@
+apollo::planning::scenario::stop_sign::StopSignUnprotectedStageStop::Process(apollo::common::TrajectoryPoint const&, apollo::planning::Frame*)

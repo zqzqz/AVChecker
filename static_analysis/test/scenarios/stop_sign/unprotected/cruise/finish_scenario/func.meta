@@ -1,0 +1,2 @@
+apollo::planning::scenario::stop_sign::StopSignUnprotectedStageIntersectionCruise::Process(apollo::common::TrajectoryPoint const&, apollo::planning::Frame*)
+apollo::planning::scenario::StageIntersectionCruiseImpl::CheckDone(apollo::planning::Frame const&, apollo::planning::ScenarioConfig_ScenarioType const&, apollo::planning::ScenarioConfig_StageConfig const&, bool)

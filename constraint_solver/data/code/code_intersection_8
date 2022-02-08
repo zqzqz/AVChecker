@@ -1,0 +1,8 @@
+or(
+    stop-keep_clear,
+    traffic_rules-traffic_light-stop,
+    ==(
+        scenario_stage,
+        3
+    )
+)

@@ -1,0 +1,7 @@
+and(
+    or(
+        stop-keep_clear,
+        traffic_rules-traffic_light-stop
+    ),
+    scenarios-traffic_light-unprotected_left_turn-entry
+)

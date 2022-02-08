@@ -1,0 +1,3 @@
+apollo::planning::SpeedDecider::MakeObjectDecision(apollo::planning::SpeedData const&, apollo::planning::PathDecision*) const
+apollo::planning::SpeedDecider::CheckKeepClearCrossable(apollo::planning::PathDecision const*, apollo::planning::SpeedData const&, apollo::planning::STBoundary const&) const
+apollo::planning::SpeedDecider::CheckKeepClearBlocked(apollo::planning::PathDecision const*, apollo::planning::Obstacle const&) const

@@ -1,0 +1,35 @@
+and(
+    cross(
+        vehicle-ego.trajectory,
+        crosswalk.boundary
+    ),
+    <(
+        vehicle-ego.end_s,
+        crosswalk.start_s
+    ),
+    inside(
+        pedestrian.pos,
+        crosswalk.boundary
+    ),
+    >(
+        *(
+            pedestrian.pos.l,
+            pedestrian.pos.l
+        ),
+        *(
+            crosswalk.stop_strict_l_distance,
+            crosswalk.stop_strict_l_distance
+        )
+    ),
+    >(
+        vehicle-ego.velocity,
+        *(
+            2,
+            max_stop_deceleration,
+            -(
+                crosswalk.start_s,
+                vehicle-ego.end_s
+            )
+        )
+    )
+)

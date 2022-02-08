@@ -1,0 +1,2 @@
+apollo::planning::YieldSign::ApplyRule(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)
+apollo::planning::YieldSign::MakeDecisions(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)

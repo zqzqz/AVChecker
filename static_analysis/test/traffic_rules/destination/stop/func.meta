@@ -1,0 +1,2 @@
+apollo::planning::Destination::ApplyRule(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)
+apollo::planning::Destination::MakeDecisions(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)

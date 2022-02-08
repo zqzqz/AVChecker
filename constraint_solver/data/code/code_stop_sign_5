@@ -1,0 +1,4 @@
+or(
+    traffic_rules-stop_sign-stop,
+    stop-keep_clear
+)

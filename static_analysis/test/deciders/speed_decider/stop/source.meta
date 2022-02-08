@@ -1,0 +1,1 @@
+apollo::planning::SpeedDecider::MakeObjectDecision(apollo::planning::SpeedData const&, apollo::planning::PathDecision*) const

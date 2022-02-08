@@ -1,0 +1,192 @@
+(let ((a!1 (not (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                     (not (>= min-77
+                              apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                     (not (<= min-77
+                              apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90))
+                     apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81
+                     (>= GetADCStopDeceleration-56
+                         apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                     (not (<= min-77
+                              apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100)))))
+      (a!2 (not (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                     (not (>= min-77
+                              apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                     (<= min-77
+                         apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90)
+                     (not apollo::planning::ReferenceLine.IsOnRoad-79)
+                     (not apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81)
+                     (not (<= apollo::common::math::Vec2d-60.InnerProd-92
+                              0.0))
+                     (>= GetADCStopDeceleration-56
+                         apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                     (not (<= min-77
+                              apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100)))))
+      (a!3 (not (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                     (not (>= min-77
+                              apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                     (<= min-77
+                         apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90)
+                     (not apollo::planning::ReferenceLine.IsOnRoad-79)
+                     apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81
+                     (>= GetADCStopDeceleration-56
+                         apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                     (not (<= min-77
+                              apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100)))))
+      (a!4 (not (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                     (not (>= min-77
+                              apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                     (<= min-77
+                         apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90)
+                     apollo::planning::ReferenceLine.IsOnRoad-79
+                     (not (<= apollo::common::SLPoint-59.s-91
+                              apollo::planning::ReferenceLineInfo.AdcSlBoundary-67.start_s-68))
+                     (>= GetADCStopDeceleration-56
+                         apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                     (not (<= min-77
+                              apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100)))))
+      (a!5 (not (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                     (>= min-77
+                         apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86)
+                     apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81
+                     (>= GetADCStopDeceleration-56
+                         apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                     (not (<= min-77
+                              apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100)))))
+      (a!6 (or (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (>= min-77
+                        apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86)
+                    apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81
+                    (not (>= GetADCStopDeceleration-56
+                             apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)))
+               (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (not (>= min-77
+                             apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                    (<= min-77
+                        apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90)
+                    apollo::planning::ReferenceLine.IsOnRoad-79
+                    (not (<= apollo::common::SLPoint-59.s-91
+                             apollo::planning::ReferenceLineInfo.AdcSlBoundary-67.start_s-68))
+                    (not (>= GetADCStopDeceleration-56
+                             apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)))
+               (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (not (>= min-77
+                             apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                    (<= min-77
+                        apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90)
+                    (not apollo::planning::ReferenceLine.IsOnRoad-79)
+                    apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81
+                    (not (>= GetADCStopDeceleration-56
+                             apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)))
+               (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (not (>= min-77
+                             apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                    (<= min-77
+                        apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90)
+                    (not apollo::planning::ReferenceLine.IsOnRoad-79)
+                    (not apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81)
+                    (not (<= apollo::common::math::Vec2d-60.InnerProd-92
+                             0.0))
+                    (not (>= GetADCStopDeceleration-56
+                             apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)))
+               (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (not (>= min-77
+                             apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                    (not (<= min-77
+                             apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90))
+                    apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81
+                    (not (>= GetADCStopDeceleration-56
+                             apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)))
+               (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (>= min-77
+                        apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86)
+                    apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81
+                    (>= GetADCStopDeceleration-56
+                        apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                    (<= min-77
+                        apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100))
+               (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (not (>= min-77
+                             apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                    (<= min-77
+                        apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90)
+                    apollo::planning::ReferenceLine.IsOnRoad-79
+                    (not (<= apollo::common::SLPoint-59.s-91
+                             apollo::planning::ReferenceLineInfo.AdcSlBoundary-67.start_s-68))
+                    (>= GetADCStopDeceleration-56
+                        apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                    (<= min-77
+                        apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100))
+               (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (not (>= min-77
+                             apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                    (<= min-77
+                        apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90)
+                    (not apollo::planning::ReferenceLine.IsOnRoad-79)
+                    apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81
+                    (>= GetADCStopDeceleration-56
+                        apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                    (<= min-77
+                        apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100))
+               (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (not (>= min-77
+                             apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                    (<= min-77
+                        apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90)
+                    (not apollo::planning::ReferenceLine.IsOnRoad-79)
+                    (not apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81)
+                    (not (<= apollo::common::math::Vec2d-60.InnerProd-92
+                             0.0))
+                    (>= GetADCStopDeceleration-56
+                        apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                    (<= min-77
+                        apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100))
+               (and apollo::common::math::Polygon2d-58.IsPointIn-69{apollo::common::math::Polygon2d-58&apollo::common::math::Vec2d-57}
+                    (not (>= min-77
+                             apollo::planning::TrafficRule-83.config_76-84.crosswalk-85.stop_loose_l_distance-86))
+                    (not (<= min-77
+                             apollo::planning::TrafficRule-87.config_86-88.crosswalk-89.stop_strict_l_distance-90))
+                    apollo::planning::Obstacle.reference_line_st_boundary-80.IsEmpty-81
+                    (>= GetADCStopDeceleration-56
+                        apollo::planning::TrafficRule-93.config_155-94.crosswalk-95.max_stop_deceleration-96)
+                    (<= min-77
+                        apollo::planning::TrafficRule-97.config_162-98.crosswalk-99.stop_strict_l_distance-100))))
+      (a!9 (not (<= (+ struct.apollo::hdmap::PathOverlap.start_s132-105
+                       (* (- 1.0)
+                          apollo::planning::ReferenceLineInfo.AdcSlBoundary-34.end_s-35))
+                    40.0))))
+(let ((a!7 (and (<= (+ apollo::planning::ReferenceLineInfo.AdcSlBoundary-34.end_s-35
+                       (* (- 1.0) struct.apollo::hdmap::PathOverlap.end_s-42))
+                    apollo::planning::TrafficRule-43.config_-44.crosswalk-45.min_pass_s_distance-46)
+                a!1
+                a!2
+                a!3
+                a!4
+                a!5
+                a!6
+                (not apollo::planning::ReferenceLine.IsOnLane-104)
+                (<= (+ struct.apollo::hdmap::PathOverlap.start_s132-105
+                       (* (- 1.0)
+                          apollo::planning::ReferenceLineInfo.AdcSlBoundary-34.end_s-35))
+                    40.0)))
+      (a!8 (and (<= (+ apollo::planning::ReferenceLineInfo.AdcSlBoundary-34.end_s-35
+                       (* (- 1.0) struct.apollo::hdmap::PathOverlap.end_s-42))
+                    apollo::planning::TrafficRule-43.config_-44.crosswalk-45.min_pass_s_distance-46)
+                a!1
+                a!2
+                a!3
+                a!4
+                a!5
+                a!6
+                apollo::planning::ReferenceLine.IsOnLane-104))
+      (a!10 (and (<= (+ apollo::planning::ReferenceLineInfo.AdcSlBoundary-34.end_s-35
+                        (* (- 1.0) struct.apollo::hdmap::PathOverlap.end_s-42))
+                     apollo::planning::TrafficRule-43.config_-44.crosswalk-45.min_pass_s_distance-46)
+                 a!1
+                 a!2
+                 a!3
+                 a!4
+                 a!5
+                 a!6
+                 (not apollo::planning::ReferenceLine.IsOnLane-104)
+                 a!9)))
+  (and (or a!7 a!8 a!10) apollo::planning::Crosswalk.FindCrosswalks-7)))

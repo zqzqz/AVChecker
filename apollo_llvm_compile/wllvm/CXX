@@ -1,0 +1,7 @@
+#!/bin/bash
+
+PATH=/usr/local/cuda-8.0/bin:/apollo/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin: \
+LLVM_COMPILER=clang \
+WLLVM_BC_STORE=/apollo/wllvm_bc \
+exec wllvm++ "$@"
+

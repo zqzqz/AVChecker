@@ -1,0 +1,12 @@
+and(
+  not(
+    overlap_finished
+  ),
+  apollo::planning::TrafficRule.config_.stop_sign.enabled,
+  not(
+    <=(
+      struct.apollo::hdmap::PathOverlap.end_s,
+      apollo::planning::ReferenceLineInfo.AdcSlBoundary.start_s
+    )
+  )
+)

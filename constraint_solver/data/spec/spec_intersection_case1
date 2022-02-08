@@ -1,0 +1,27 @@
+or(
+    and(
+        is_approaching(
+            vehicle-ego,
+            intersection.start_s
+        ),
+        <(
+            -(
+                intersection.start_s,
+                vehicle-ego.end_s
+            ),
+            5
+        )
+    ),
+    and(
+        is_yield(
+            vehicle-ego,
+            vehicle,
+            intersection.start_s,
+            intersection.end_s
+        ),
+        is_waiting(
+            vehicle-ego,
+            intersection.start_s
+        )
+    )
+)

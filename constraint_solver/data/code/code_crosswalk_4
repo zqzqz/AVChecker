@@ -1,0 +1,13 @@
+or(
+    and(
+        >=(
+            crosswalk.start_s,
+            intersection.start_s
+        ),
+        <=(
+            crosswalk.start_s,
+            intersection.end_s
+        )
+    ),
+    stop-keep_clear
+)

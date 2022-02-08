@@ -1,0 +1,16 @@
+and(
+    not(
+        is_near_destination
+    ),
+    not(
+        and(
+            >(
+                vehicle-ego.start_s,
+                destination.pos.s
+            ),
+            not(
+                has_passed_destination
+            )
+        )
+    )
+)

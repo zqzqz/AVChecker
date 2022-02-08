@@ -1,0 +1,16 @@
+and(
+    is_waiting(
+        vehicle-ego,
+        intersection.start_s
+    ),
+    cross(
+        vehicle.boundary,
+        intersection.boundary
+    ),
+    is_yield(
+        vehicle-ego,
+        vehicle,
+        intersection.start_s,
+        intersection.end_s
+    )
+)

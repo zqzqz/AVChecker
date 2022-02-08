@@ -1,0 +1,2 @@
+apollo::planning::StopSign::ApplyRule(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)
+apollo::planning::StopSign::MakeDecisions(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)

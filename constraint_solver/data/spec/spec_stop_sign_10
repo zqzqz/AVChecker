@@ -1,0 +1,13 @@
+and(
+    >=(
+        destination.end_s,
+        -(
+            stop_sign.start_s,
+            30
+        )
+    ),
+    <=(
+        destination.start_s,
+        stop_sign.start_s
+    )
+)

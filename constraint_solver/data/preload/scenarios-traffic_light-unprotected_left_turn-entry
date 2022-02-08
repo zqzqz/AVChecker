@@ -1,0 +1,19 @@
+and(
+    GetOverlapOnReferenceLine,
+    is_color(
+        traffic_light-self,
+        unknown
+    ),
+    is_color(
+        traffic_light-main,
+        green
+    ),
+    is_approaching(
+        vehicle-ego,
+        intersection.start_s
+    ),
+    is_direction(
+        vehicle-ego.lane,
+        left
+    )
+)

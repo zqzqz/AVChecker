@@ -1,0 +1,2 @@
+apollo::planning::scenario::traffic_light::TrafficLightUnprotectedRightTurnStageCreep::Process(apollo::common::TrajectoryPoint const&, apollo::planning::Frame*)
+apollo::planning::CreepDecider::CheckCreepDone(apollo::planning::Frame const&, apollo::planning::ReferenceLineInfo const&, double, double, double)

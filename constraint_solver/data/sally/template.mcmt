@@ -1,0 +1,30 @@
+;; A definition of a state type called "traffic_state" with variables
+;; x and y of type Real. 
+(define-state-type traffic_state 
+##DEFINITION##
+)
+
+;; A definition of a set of states "initial_states" over 
+;; "traffic_state" by a state formula. These are all states where 
+;; both x and y are 0.
+(define-states initial_states traffic_state
+##INIT##
+)
+
+;; Definition of a transition
+(define-transition move_traffic traffic_state
+##TRANSITION##
+)
+
+;; Directly define a simple counter system
+(define-transition-system T traffic_state
+   ;; Initial states 
+   initial_states
+   ;; Transition 
+   move_traffic
+)
+
+;; Check violation
+(query T 
+##QUREY##
+)

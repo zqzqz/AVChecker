@@ -1,0 +1,72 @@
+{
+  "common": {
+    "lane_left_width": 1.0,
+    "lane_right_width": 4.0,
+    "road_left_width": 2.0,
+    "road_right_width": 9.0,
+    "overlap_finished": false
+  },
+  "intersection": {
+    "": {
+      "pos.s": 16.0,
+      "size.s": 11.0,
+      "pos.l": -5.0,
+      "size.l": 6.0
+    }
+  },
+  "vehicle": {
+    "ego": {
+      "v.s": 1.0,
+      "lane.turn": -1.0,
+      "arrive_time": -1.0,
+      "v.l": 0.0,
+      "pos.s": 0.0,
+      "pos.l": 0.0,
+      "length": 2.0,
+      "size.s": 2.0,
+      "size.l": 2.0,
+      "stop_line": 5.0,
+      "lane.way_id": 0.0
+    },
+    "": {
+      "lane.way_id": 2.5,
+      "pos.s": 30.0,
+      "pos.l": 1.0,
+      "stop_line": -1.0,
+      "lane.turn": 1.0,
+      "v.l": -1.0,
+      "v.s": -9.0,
+      "length": 2.0,
+      "size.s": 2.0,
+      "size.l": 2.0
+    }
+  },
+  "traffic_light": {
+    "main": {
+      "color": 3.0,
+      "size.l": 1.0,
+      "pos.l": 0.0,
+      "size.s": 1.0
+    },
+    "self": {
+      "size.l": 1.0,
+      "pos.l": 0.0,
+      "size.s": 1.0,
+      "color": 2.0
+    }
+  },
+  "pedestrian": {
+    "": {
+      "v.l": 0.5,
+      "v.s": -2.0,
+      "size.s": 0.5,
+      "size.l": 0.5
+    }
+  },
+  "destination": {
+    "": {
+      "size.s": 2.0,
+      "size.l": 2.0
+    }
+  }
+}

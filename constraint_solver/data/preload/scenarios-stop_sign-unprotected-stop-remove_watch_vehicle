@@ -1,0 +1,18 @@
+or(
+  and(
+    GetObjectOverlapInfo,
+    not(
+      FindPerceptionObstacle
+    )
+  ),
+  and(
+    GetObjectOverlapInfo,
+    FindPerceptionObstacle,
+    not(
+      <=(
+        DistanceXY,
+        10.0
+      )
+    )
+  )
+)

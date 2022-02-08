@@ -1,0 +1,24 @@
+or(
+  not(
+    apollo::planning::ReferenceLineInfo.GetOverlapOnReferenceLine
+  ),
+  and(
+    apollo::planning::ReferenceLineInfo.GetOverlapOnReferenceLine,
+    <=(
+      +(
+        struct.apollo::hdmap::PathOverlap.start_s24,
+        *(
+          -(
+            1.0
+          ),
+          apollo::planning::ReferenceLineInfo.AdcSlBoundary.end_s
+        )
+      ),
+      apollo::planning::scenario::traffic_light::TrafficLightProtectedStageApproach.scenario_config_.max_valid_stop_distance
+    ),
+    ==(
+      apollo::perception::TrafficLight.color,
+      3
+    )
+  )
+)

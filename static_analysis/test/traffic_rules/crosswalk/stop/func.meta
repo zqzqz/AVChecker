@@ -1,0 +1,4 @@
+apollo::planning::Crosswalk::ApplyRule(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)
+apollo::planning::Crosswalk::MakeDecisions(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)
+apollo::planning::Crosswalk::CheckStopForObstacle(apollo::planning::ReferenceLineInfo*, std::__1::shared_ptr<apollo::hdmap::CrosswalkInfo const>, apollo::planning::Obstacle const&, double)
+apollo::planning::Crosswalk::CheckStopForObstacle(apollo::planning::ReferenceLineInfo*, std::shared_ptr<apollo::hdmap::CrosswalkInfo const>, apollo::planning::Obstacle const&, double)

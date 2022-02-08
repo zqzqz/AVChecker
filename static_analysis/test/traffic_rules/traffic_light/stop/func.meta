@@ -1,0 +1,2 @@
+apollo::planning::TrafficLight::ApplyRule(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)
+apollo::planning::TrafficLight::MakeDecisions(apollo::planning::Frame*, apollo::planning::ReferenceLineInfo*)

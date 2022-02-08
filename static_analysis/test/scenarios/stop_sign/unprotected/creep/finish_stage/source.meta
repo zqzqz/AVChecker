@@ -1,0 +1,1 @@
+apollo::planning::scenario::stop_sign::StopSignUnprotectedStageCreep::Process(apollo::common::TrajectoryPoint const&, apollo::planning::Frame*)

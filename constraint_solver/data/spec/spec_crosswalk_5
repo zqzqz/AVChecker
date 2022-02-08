@@ -1,0 +1,16 @@
+and(
+    >=(
+        destination.end_s,
+        -(
+            crosswalk.start_s,
+            20
+        )
+    ),
+    <=(
+        destination.start_s,
+        +(
+            crosswalk.end_s,
+            20
+        )
+    )
+)

@@ -1,0 +1,17 @@
+and(
+    GetOverlapOnReferenceLine,
+    <=(
+        -(
+            intersection.start_s,
+            vehicle-ego.end_s
+        ),
+        start_stop_sign_scenario_distance
+    ),
+    >(
+        -(
+            intersection.start_s,
+            vehicle-ego.end_s
+        ),
+        max_valid_stop_distance 
+    )
+)

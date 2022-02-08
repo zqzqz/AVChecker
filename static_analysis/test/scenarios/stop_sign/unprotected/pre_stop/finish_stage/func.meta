@@ -1,0 +1,2 @@
+apollo::planning::scenario::stop_sign::StopSignUnprotectedStagePreStop::Process(apollo::common::TrajectoryPoint const&, apollo::planning::Frame*)
+apollo::planning::scenario::stop_sign::StopSignUnprotectedStagePreStop::CheckADCStop(double, double)

@@ -1,0 +1,50 @@
+{
+  "common": {
+    "lane_left_width": 1.0,
+    "lane_right_width": 4.0,
+    "road_left_width": 2.0,
+    "road_right_width": 9.0
+  },
+  "destination": {
+    "": {
+      "pos.s": 2.0,
+      "pos.l": 11.0,
+      "size.s": 2.0,
+      "size.l": 2.0
+    }
+  },
+  "vehicle": {
+    "ego": {
+      "v.s": 1.0,
+      "v.l": 0.0,
+      "pos.s": 0.0,
+      "pos.l": 0.0,
+      "length": 2.0,
+      "size.s": 2.0,
+      "size.l": 2.0
+    },
+    "": {
+      "v.l": 0.5,
+      "v.s": -9.0,
+      "length": 2.0,
+      "size.s": 2.0,
+      "size.l": 2.0
+    }
+  },
+  "crosswalk": {
+    "": {
+      "size.l": 6.0,
+      "pos.s": 5.5,
+      "pos.l": 4.0,
+      "size.s": 2.0
+    }
+  },
+  "pedestrian": {
+    "": {
+      "v.l": 0.125,
+      "v.s": -2.0,
+      "size.s": 0.5,
+      "size.l": 0.5
+    }
+  }
+}
