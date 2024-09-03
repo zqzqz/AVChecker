@@ -1,0 +1,18 @@
+and(
+  not(
+    <=(
+      end_s_21,
+      start_s_20
+    )
+  ),
+  not(
+    is_color(
+      color_35,
+      green
+    )
+  ),
+  <=(
+    GetADCStopDeceleration_37,
+    max_stop_deceleration_38
+  )
+)

@@ -1,0 +1,20 @@
+and(
+    is_waiting(
+        vehicle-ego,
+        intersection.start_s
+    ),
+    ==(
+        vehicle-ego.arrive_time,
+        vehicle.arrive_time
+    ),
+    ==(
+        vehicle.lane.way_id,
+        3
+    ),
+    is_yield(
+        vehicle-ego,
+        vehicle,
+        intersection.start_s,
+        intersection.end_s
+    )
+)

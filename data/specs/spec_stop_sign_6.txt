@@ -1,0 +1,10 @@
+and(
+    <(
+        vehicle-ego.arrive_time,
+        vehicle.arrive_time
+    ),
+    >(
+        vehicle-ego.arrive_time,
+        0
+    )
+)

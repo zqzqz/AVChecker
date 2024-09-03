@@ -1,0 +1,28 @@
+or(
+    and(
+        >=(
+            vehicle-ego.end_s,
+            -(
+                intersection.start_s,
+                30
+            )
+        ),
+        <=(
+            vehicle-ego.start_s,
+            intersection.start_s
+        )
+    ),
+    and(
+        <=(
+            vehicle-ego.start_s,
+            +(
+                intersection.end_s,
+                30
+            )
+        ),
+    >=(
+            vehicle-ego.end_s,
+            intersection.end_s
+        )
+    )
+)

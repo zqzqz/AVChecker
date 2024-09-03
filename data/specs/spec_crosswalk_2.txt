@@ -1,0 +1,6 @@
+and(
+    cross(
+        destination.boundary,
+        crosswalk.boundary
+    )
+)

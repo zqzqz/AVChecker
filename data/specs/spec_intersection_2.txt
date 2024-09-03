@@ -1,0 +1,32 @@
+and(
+    is_approaching(
+        vehicle-ego,
+        intersection.start_s
+    ),
+    is_direction(
+        vehicle-ego.lane,
+        left
+    ),
+    is_color(
+        traffic_light-self,
+        unknown
+    ),
+    is_color(
+        traffic_light-main,
+        green
+    ),
+    ==(
+        vehicle.lane.way_id,
+        2
+    ),
+    is_direction(
+        vehicle.lane,
+        straight
+    ),
+    is_yield(
+        vehicle-ego,
+        vehicle,
+        intersection.start_s,
+        intersection.end_s
+    )
+)

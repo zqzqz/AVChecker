@@ -1,0 +1,27 @@
+and(
+    is_approaching(
+        vehicle-ego,
+        intersection.start_s
+    ),
+    is_direction(
+        vehicle-ego.lane,
+        left
+    ),
+    is_color(
+        traffic_light-self,
+        yellow
+    ),
+    <=(
+        vehicle-ego.velocity,
+        *(
+            max_stop_deceleration,
+            *(
+                -(
+                    intersection.start_s,
+                    vehicle-ego.end_s
+                ),
+                2
+            )
+        )
+    )
+)

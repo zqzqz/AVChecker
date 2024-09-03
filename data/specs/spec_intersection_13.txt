@@ -1,0 +1,10 @@
+and(
+    >=(
+        destination.end_s,
+        intersection.start_s
+    ),
+    <=(
+        destination.start_s,
+        intersection.end_s
+    )
+)

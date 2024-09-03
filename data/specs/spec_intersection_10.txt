@@ -1,0 +1,18 @@
+and(
+    is_waiting(
+        vehicle-ego,
+        intersection.start_s
+    ),
+    cross(
+        vehicle-ego.trajectory,
+        vehicle.boundary
+    ),
+    cross(
+        vehicle.boundary,
+        intersection.boundary
+    ),
+    ==(
+        vehicle.velocity,
+        0
+    )
+)
